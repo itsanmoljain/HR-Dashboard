@@ -1,4 +1,3 @@
-
 # HR Analysis Dashboard
 
 As an HR Manager, leveraging data-driven insights is essential for optimizing workforce dynamics. I’m excited to introduce our advanced, Dynamic HR Dashboard, developed using Tableau, which offers both high-level overviews and in-depth, point-to-point analysis of critical HR metrics.
@@ -7,15 +6,16 @@ As an HR Manager, leveraging data-driven insights is essential for optimizing wo
 
 The data used in this HR Dashboard project is generated using a combination of ChatGPT prompts and the Python [Faker library](https://fakerjs.dev/). This dataset simulates a set of employee information typically found in HR systems, including demographics, job details, salary, performance evaluations, and attrition data. The generated data is designed to mimic real-world HR data, providing a rich dataset for analysis and visualization in Tableau.
 
-The [icons](Icons and Images) used in the HR Dashboard are sourced from [Flaticon](https://www.flaticon.com/) and customized using [Photopea](https://www.photopea.com/) to match the dashboard’s color scheme.
+The [icons](https://github.com/itsanmoljain/HR-Dashboard/tree/main/Icons%20and%20Images) used in the HR Dashboard are sourced from [Flaticon](https://www.flaticon.com/) and customized using [Photopea](https://www.photopea.com/) to match the dashboard’s color scheme.
 
-[ChatGPt Prompt](ChatGPT Prompt.txt)
+[ChatGPT Prompt](https://github.com/itsanmoljain/HR-Dashboard/blob/main/ChatGPT%20Prompt.txt)           
+[Python File](https://github.com/itsanmoljain/HR-Dashboard/blob/main/Data.py)
 
 # Problem Statement
 ## Introduction
 As an HR manager, I want a comprehensive dashboard to analyze human resources data, providing both summary views for high-level insights and detailed employee records for in-depth analysis
 
-## Summary View
+## Summary View | Requirements
 
 The summary view should be divided into three main sections: Overview, Demographics, and Income Analysis
 
@@ -54,7 +54,7 @@ The income analysis section should focus on salary-related metrics, including:
 
 ![Alt text](dashboard-image/Overview.png)
 
-## Employee Records View
+## Employee Records View | Requirements
 
 - Provide a comprehensive list of all employees with necessary information such as name, department, position, gender, age, education, and salary.
 - Users should be able to filter the list based on any of the available columns.
